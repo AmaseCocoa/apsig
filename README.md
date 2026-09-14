@@ -1,6 +1,10 @@
 # apsig
 ![PyPI](https://img.shields.io/pypi/v/apsig) [![CodeQL](https://github.com/AmaseCocoa/apsig/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/AmaseCocoa/apsig/actions/workflows/github-code-scanning/codeql)
 
+> [!WARNING]
+> **Minimal Maintenance Only**
+> This library is stable and completed, but is now in minimal maintenance mode (critical bug fixes only). For more context on the fedi-libs ecosystem, please read our discussion: [**Project Status**](https://github.com/orgs/fedi-libs/discussions/2).
+
 apsig is collection of signature implemention used in ActivityPub.
 
 This library implements the creation/verification of signatures for HTTP Signatures ([draft-cavage-http-signatures-12](https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures-12)), [Linked Data Signatures 1.0](https://docs.joinmastodon.org/spec/security/#ld), and Object Integrity Proofs ([FEP-8b32](https://codeberg.org/fediverse/fep/src/branch/main/fep/8b32/fep-8b32.md)).
